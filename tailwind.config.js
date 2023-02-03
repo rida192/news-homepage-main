@@ -16,7 +16,7 @@ module.exports = {
       screens: {
         lg: "786px",
         xl: "1024px",
-        "2xl": "1111px",
+        "2xl": "1143px",
       },
       colors: {
         SoftOrange: "hsl(35, 77%, 62%)",

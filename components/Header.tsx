@@ -4,10 +4,10 @@ import logo from "../public/assets/images/logo.svg";
 import burgerIcon from "../public/assets/images/icon-menu.svg";
 import closeIcon from "../public/assets/images/icon-menu-close.svg";
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="pt-[27px] md:pt-[88px]">
-      <div className="container flex justify-between">
+      <div className="container flex justify-between items-center">
         <Image
           className="w-[45px] h-[30px] md:w-[64px] md:h-[41px]"
           src={logo}
@@ -16,7 +16,7 @@ const Header = () => {
           alt="logo"
           priority
         />
-        <div className="hidden md:flex space-x-[19px] text-DarkGrayishBlue">
+        <div className="hidden md:flex space-x-[40px] text-DarkGrayishBlue">
           <h3>Home</h3>
           <h3>New</h3>
           <h3>Popular</h3>
