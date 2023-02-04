@@ -13,7 +13,7 @@ const Card = ({ image, number, title, paragraph }: CardProps) => {
     <div className="flex gap-[25px] group cursor-pointer ">
       <div className="overflow-hidden">
         <Image
-          className="group-hover:scale-125 group-hover:rotate-12 transition-all duration-200"
+          className="group-hover:scale-125 group-hover:rotate-12 transition-all duration-200 md:min-h-full"
           src={image}
           width={100}
           height={128}

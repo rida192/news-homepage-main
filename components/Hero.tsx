@@ -9,6 +9,7 @@ const Hero = () => {
         {/* left side */}
         <div className="basis-[62.5%]">
           <Image
+            className=""
             src={HeroImage}
             width={800}
             height={600}
@@ -40,17 +41,17 @@ const Hero = () => {
           <h3 className="text-[19px] font-bold text-white">
             Hydrogen VS Electric Cars
           </h3>
-          <p className="text-GrayishBlue border-b border-GrayishBlue pb-[37px]">
+          <p className="text-GrayishBlue border-b border-GrayishBlue pb-[34px]">
             will hydrogen-fueled cars ever catch up to EVs?
           </p>
-          <h3 className="mt-[35px] text-[19px] font-bold text-white">
+          <h3 className="mt-[34px] text-[19px] font-bold text-white">
             The Downsides of AI Artistry
           </h3>
-          <p className="text-GrayishBlue border-b border-GrayishBlue pb-[37px]">
+          <p className="text-GrayishBlue border-b border-GrayishBlue pb-[34px]">
             What are the possible adverse effects of on-demand AI image
             generation?
           </p>
-          <h3 className=" mt-[35px] text-[19px] font-bold text-white">
+          <h3 className=" mt-[34px] text-[19px] font-bold text-white">
             Is VC Funding Drying up?
           </h3>
           <p className="text-GrayishBlue  ">
