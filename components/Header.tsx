@@ -16,7 +16,7 @@ const Header = () => {
           alt="logo"
           priority
         />
-        <div className="hidden md:flex space-x-[40px] text-DarkGrayishBlue">
+        <div className="hidden md:flex space-x-[40px] text-DarkGrayishBlue [&>*:hover]:text-SoftRed [&>*]:transition-all [&>*]:duration-200 [&>*]:cursor-pointer ">
           <h3>Home</h3>
           <h3>New</h3>
           <h3>Popular</h3>

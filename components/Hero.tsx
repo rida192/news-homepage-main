@@ -26,14 +26,14 @@ const Hero = () => {
                 the power of the platforms back into the hands of the people.
                 But is it realy fulfilling its promise?
               </p>
-              <button className="mt-[30px] md:mt-[40px] p-[20px] bg-SoftRed text-white font-bold tracking-[4px] uppercase">
+              <button className="mt-[30px] md:mt-[40px] p-[20px] bg-SoftRed text-white font-bold tracking-[4px] uppercase hover:bg-VeryDarkBlue transition-all duration-200">
                 Read More
               </button>
             </div>
           </div>
         </div>
         {/* right side */}
-        <div className=" pb-[39px] px-[22px] md:px-[26px] bg-VeryDarkBlue pt-[29px] md:pt-[37px] flex-1">
+        <div className=" pb-[39px] px-[22px] md:px-[26px] bg-VeryDarkBlue pt-[29px] md:pt-[37px] flex-1 [&>h3:hover]:text-SoftOrange [&>h3:hover]:cursor-pointer [&>h3]:transition-all [&>h3]:duration-200">
           <h2 className="text-[26px] text-SoftOrange font-bold mb-[43px]">
             New
           </h2>
