@@ -27,7 +27,7 @@ const Hero = () => {
                 the power of the platforms back into the hands of the people.
                 But is it realy fulfilling its promise?
               </p>
-              <button className="mt-[30px] md:mt-[40px] p-[20px] bg-SoftRed text-white font-bold tracking-[4px] uppercase hover:bg-VeryDarkBlue transition-all duration-200">
+              <button className="mt-[30px] md:mt-[40px] px-[20px] py-[15px] bg-SoftRed text-white font-bold tracking-[4px] uppercase hover:bg-VeryDarkBlue transition-all duration-200">
                 Read More
               </button>
             </div>
